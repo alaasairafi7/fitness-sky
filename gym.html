@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+<title> Fitness sky</title>
+ <link rel="stylesheet" type="text/css" href="styleLeen.css">
+
+<!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet"> 
+    
+ <script>
+ function radioButton (selectedSubject){
+  switch(selectedSubject) {
+ case 1 : alert(" Are you sure you want send message about Gym Equipment");
+  break;
+ case 2 : alert("Are you sure you want send message about Personal Training");
+  break; }          }
+ </script>
+</head>
+
+<body>
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="home.html" class="logo">
+        Fitness Sky<span class="span">.</span>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">            
+            <a href="home.html" class="navbar-link" data-nav-link>Home Page</a>
+          </li> 
+
+          <li class="navbar-item">
+            <a href="https://maps.app.goo.gl/vYH91irUmca7sMBQ9?g_st=it" class="navbar-link" data-nav-link target="_blank">Location</a>
+          </li>         
+
+          <li class="navbar-item">            
+            <a href="packages.html" class="navbar-link" data-nav-link>Packages</a>
+          </li>
+        
+        </ul>
+
+      </nav>
+     </div>
+   </header>
+
+
+
+
+      <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('gymLL.jpg')">
+    
+        <div class="container">
+
+          <h1 class="h1 hero-title">Our gym is a place where you can achieve your fitness goals and improve your overall health and wellbeing.</h1>
+
+          <p class="hero-text"> We offer a wide range of equipment to suit every fitness level</p>
+
+        </div>
+        </section>
+
+
+
+    <h3>OUR SERVICES</h3>
+<main>
+     <ul>
+  <li> <h2>Gym equipment</h2> </li>
+   <p class="servicesP">We provide many equipment in our gym that exercises most parts of the body such as <i>incline bench press</i> for upper chest and shoulders, <i>dumbbells </i> for lats , chest and shoulders , <i>indoor cycle bike </i>for arms, shoulders, foot,Thigh – Hamstrings and quadriceps ,<i>treadmill</i> for thighs ,calves and legs.</p>
+
+  <li> <h2>Personal training</h2> </li> 
+   <p class="servicesP">A personal trainer will work closely with you to assess your current fitness level, discuss your goals, and develop a plan that will help you achieve the results you want,During your personal training sessions, your trainer will provide guidance and support as you work through your customized workout plan, which may include cardio, strength training, and flexibility exercises. They will also help you to maintain proper form and technique to minimize the risk of injury.</p>
+  
+  <li>  <h2>Swimming pool</h2> </li> 
+   <p class="servicesP"> We have provided a swimming pool in our gym for several reasons, including that it provides a full body workout Swimming engages all of the major muscle groups in your body, providing a full-body workout that can help to improve strength, endurance, and cardiovascular fitness.</p>
+  
+  <li>  <h2>Lockers</h2> </li> 
+   <p class="servicesP">Our gym provides a free locker service to customers to ensure peace of mind as Knowing that your personal items are safe and secure in a locker can provide peace of mind and allow you to focus on your workout and Lockers provide a secure place to store your personal belongings while you work out, reducing the risk of theft or loss</p>
+  </ul>
+  
+ </main>
+ <div class="image-grid">
+  <img src="gymlenn4.jpg" alt="Swimming pool"> 
+  <img src="gymleen3.jpg" alt="Gym equipment">
+   <img src="gymleen2.jpg" alt="Lockers">  
+ </div>
+ 
+ 
+ <h3>Working Hours</h3>
+ <table>  
+      <tr>
+        <th>DAY</th>
+        <th>Time</th>
+      </tr>
+      <tr>
+        <td>SUNDAY</td>
+        <td>8:00 AM - 4:00 PM</td> 
+     </tr>
+      <tr>
+        <td>MONDAY</td>
+        <td>9:00 AM - 5:00 PM</td>
+      </tr>
+      <tr>
+        <td>TUESDY</td>
+        <td>10:00 AM - 6:00 PM</td> 
+     </tr>
+     <tr>
+        <td>WEDNSDAY</td>
+        <td>11:00 AM - 7:00 PM</td> 
+     </tr>
+     <tr>
+        <td>THURSDAY</td>
+        <td>12:00 PM - 8:00 PM</td> 
+     </tr>
+ </table>
+ 
+ 
+  <h3>For Questions</h3>
+ <form method="post">
+  <fieldset>
+ 
+   <label for="name">Name:</label>
+   <input type="text" id="name" name="name" required>
+ 
+   <label for="email">Email:</label>
+   <input type="text" id="email" name="email"  required>
+   
+   <label for="subject">Subject:</label>
+   <input type="radio" name="subject" value="About Gym Equipment" onclick="radioButton(1)" >About Gym Equipment<br>
+   <input type="radio" name="subject"  value="About Personal Training"  onclick="radioButton(2)">About Personal Training
+ 
+   <label for="message">Message:</label>
+   <textarea id="message" name="message" ></textarea><br>
+ 
+   <input type="submit" value="Send">
+ 
+   </fieldset>
+  </form>
+ 
+ 
+ </body>
+ </html>

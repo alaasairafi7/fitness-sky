@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+
+<title> Fitness sky</title>
+ <link rel="stylesheet" type="text/css" href="styleLeen.css">
+
+ <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap"
+    rel="stylesheet"> 
+    
+ <script>
+ function thanks_msg (){  
+  alert("Your Message Will Send After Pressed On Ok Button ");    }   
+</script>
+</head>
+
+<body> 
+  <!-- 
+    - #HEADER
+  -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="home.html" class="logo">
+        Fitness Sky<span class="span">.</span>
+      </a>
+      <nav class="navbar" data-navbar>
+         <ul class="navbar-list">
+           <li class="navbar-item">            
+              <a href="home.html" class="navbar-link" data-nav-link>Home Page</a>
+           </li> 
+            <li class="navbar-item">
+               <a href="https://maps.app.goo.gl/vYH91irUmca7sMBQ9?g_st=it" class="navbar-link" data-nav-link target="_blank">Location</a>
+            </li>
+            <li class="navbar-item">            
+               <a href="packages.html" class="navbar-link" data-nav-link>Packages</a>
+          </li>        
+        </ul>
+     </nav>
+    </div>
+</header>
+
+      <!-- 
+        - #HERO
+      -->
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('yogaLL.jpg')">    
+
+        <div class="container">
+
+          <h1 class="h1 hero-title">Our yoga classes are designed to help you find balance, strength, and flexibility.</h1>
+          <p class="hero-text"> Find Your Inner Peace </p>
+
+        </div>
+      </section> 
+
+
+
+<h3>Our Classes</h3>
+<main>
+   <ul>
+    <li><h2>Beginner Yoga Classes</li></h2>
+    <p class="servicesP">perfect for those new to yoga, These classes typically focus on basic poses, breathing techniques, and relaxation exercises.</p>
+    <li><h2>Intermediate Yoga Classes </li></h2>
+    <p class="servicesP">for those who are more experienced,These classes typically build on the foundational yoga poses and techniques learned in beginner classes and introduce more challenging poses and sequences.</p>
+    <li><h2>Private Yoga Classes </li></h2>
+    <p class="servicesP"> one-on-one instruction for personalized attention, Private classes can be a great option for those who are new to yoga and want to learn the basics before joining a group class, or for more experienced practitioners who want to deepen their practice or work on specific areas of focus.</p>
+    <li><h2>Meditation Classes </li></h2>
+    <p class="servicesP"> learn to quiet your mind and find inner peace,Meditation classes can be beneficial for a variety of reasons, including reducing stress and anxiety, improving focus and concentration, and promoting relaxation and well-being.</p>
+   </ul>
+</main>
+
+
+
+<h3>Class Schedule</h3>
+<table>
+     <tr>
+     <th>Sunday</th>
+     <td>9:00am - Intermediate Yoga</td>
+     <td>12:00pm - Beginner Yoga</td>
+     <td>6:00pm - Meditation</td>
+    </tr>
+    <tr>
+     <th>Monday</th>
+     <td>9:00am - Beginner Yoga</td>
+     <td>12:00pm - Intermediate Yoga</td>
+     <td>6:00pm - Meditation</td>
+    </tr>
+    <tr>
+     <th>Tuesday</th>
+     <td>8:00am - Private Yoga</td>
+     <td>10:00am - Beginner Yoga</td>
+     <td>5:00pm - Intermediate Yoga</td>
+    </tr>
+    <tr>
+     <th>Wednesday</th>
+     <td>9:00am - Intermediate Yoga</td>
+     <td>12:00pm - Beginner Yoga</td>
+     <td>6:00pm - Meditation</td>
+    </tr>
+    <tr>
+     <th>Thursday</th>
+     <td>8:00am - Private Yoga</td>
+     <td>10:00am - Intermediate Yoga</td>
+     <td>5:00pm - Beginner Yoga</td>
+    </tr>
+   </table>
+   <h3>For Questions</h3>
+<form method="post">
+  <fieldset>
+    
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"  required>
+
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email"  required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" ></textarea>
+
+  <input type="submit" value="Send" onclick="thanks_msg ()">
+
+  </fieldset>
+ </form>
+
+
+</body>
+</html>

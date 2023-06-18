@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <title> Fitness sky</title>
+  <!-- css link--> 
+  <link rel="stylesheet" href="DIET&NUTRITION.css">
+
+  <!--google font link-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" 
+  rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- #HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <a href="home.html" class="logo">Fitness sky<span class="span">.</span></a>
+
+      <nav class="navbar" data-navbar>
+        <div data-nav-toggler></div>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="home.html" class="navbar-link" data-nav-link>Home Page</a>
+          </li>
+          <li class="navbar-item">
+            <a href="DIET & NUTRITION P1.html" class="navbar-link" data-nav-link>Nutrition</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>  
+  </header>
+
+  <main>
+    <article>
+
+      <!-- #HERO-->
+      <section class="section hero" aria-label="hero" id="home" data-section
+        style="background-image: url('banner 3.png')">
+        <div class="container">
+          <p class="hero-subtitle">Diet & Nutrition</p>
+          <h1 class="h1 hero-title">See your personalized Food schedule!</h1>
+          <p class="hero-text">Simply follow the schedule below to know what to eat each day.</p>
+        </div>
+      </section>
+
+  <!--Food schedule:  -->
+  <table class="table2">
+    <tr>
+      <th>Day</th>
+      <th>Breakfast</th>
+      <th>Lunch</th>
+      <th>Dinner</th>
+    </tr>
+    <tr>
+      <td>Sunday</td>
+      <td>Avocado toast with egg</td>
+      <td>Roasted Chicken</td>
+      <td>Steak and Sweet Potato</td>
+    </tr>
+    <tr>
+      <td>Monday</td>
+      <td>Oatmeal with berries and almonds</td>
+      <td>Chicken Salad</td>
+      <td>Baked salmon </td>
+    </tr>
+    <tr>
+      <td>Tuesday</td>
+      <td>Egg White Omelette</td>
+      <td>Grilled Chicken</td>
+      <td>Salmon</td>
+    </tr>
+    <tr>
+      <td>Wednesday</td>
+      <td>Banana with almond butter</td>
+      <td>Tuna salad</td>
+      <td>Baked Cod</td>
+    </tr>
+    <tr>
+      <td>Thursday</td>
+      <td>Yogurt Parfait</td>
+      <td>Quinoa Salad</td>
+      <td>Roasted Turkey Breast</td>
+    </tr>
+    <tr>
+      <td>Friday</td>
+      <td>Avocado Toast</td>
+      <td>Grilled Shrimp</td>
+      <td>Mixed green salad</td>
+    </tr>
+    <tr>
+      <td>Saturday</td>
+      <td>Smoothie Bowl</td>
+      <td>Grilled Vegetables</td>
+      <td>Tuna Salad</td>
+    </tr>
+  </table><br><br>
+
+
+  <div class="service-card">
+  <h3>
+      <a href="https://www.simplyrecipes.com/" target="_blank" class="card-title">Check Out These Healthy Cooking Recipes!</a>
+  </h3>
+  </div>
+
+  <br><br>
+  <div class="form">
+    <h2>Rate This Meal Plan</h2>
+    <p>Please rate this meal plan on a scale from 1 to 5:</p>
+    
+    <form action="#" method="post" onsubmit="showAlert(event)">
+      <label for="rating">Rating:</label>
+      <input type="number" id="rating" name="rating">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!--js link-->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
